@@ -1,0 +1,183 @@
+nav{
+  background-color: lavenderblush;
+  font-family: "Times New Roman";
+  font-weight: normal;
+  font-size: medium;
+}
+
+.centerNavigation{
+  text-align: center;
+}
+
+.centerNavigation ul{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+.centerNavigation li{
+  float: left;
+  margin: 0px 120px 0px 120px;
+}
+
+body{
+  background-color: powderblue;
+}
+
+body.southkorea{
+  width: 1240px;
+  height: 1000px;
+}
+
+h1{
+  color: lightpink;
+  background-color: cadetblue;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2{
+  color: deeppink;
+  background-color: aliceblue;
+  font-family: Elephant;
+  font-size: x-large;
+  margin-right: 81%;
+  width: max-content;
+}
+
+h2.resume{
+  color: cornflowerblue;
+  font-family: "Malgun Gothic";
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 1%;
+  width: min-content;
+}
+
+h3{
+  color: darksalmon;
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: larger;
+}
+
+section.fun_fact{
+  border-style: dotted;
+  border-width: thick;
+  padding: 10px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+}
+
+section.seoul{
+  border-style: ridge;
+  border-width: thick;
+  border-color: deepskyblue;
+  margin: 0px 10% 25px 10%;
+  width: 80%;
+  padding: 10px;
+  font-family: "Bahnschrift";
+  text-align: center;
+}
+
+section.c_j{
+  border-style: dotted;
+  border-width: thick;
+  margin: 0px 10% 25px 10%;
+  width: 80%;
+  padding: 10px;
+  font-family: "Cambria";
+  text-align: center;
+}
+
+section.d_j{
+  border-style: dashed;
+  border-width: thick;
+  margin: 0px 10%;
+  width: 80%;
+  padding: 10px;
+  font-family: "Franklin Gothic Book";
+  text-align: center;
+}
+
+section.experience{
+  font-family: Consolas;
+}
+
+section.lan_skills{
+  font-family: "Century Gothic";
+}
+
+section.activities{
+  font-family: "Century Schoolbook";
+}
+
+.center_ul {
+  list-style-position: inside;
+}
+
+.leftAlign{
+  float: left;
+  text-align: left;
+  width: 50%;
+  margin-top: 0.2%;
+  margin-bottom: 1%;
+}
+
+.leftAlign_2{
+  text-align: left;
+  width: 50%;
+}
+
+.rightAlign{
+  float: right;
+  text-align: right;
+  width: 50%;
+  margin-top: 0px;
+}
+
+.rightAlign_2{
+  float: right;
+  text-align: right;
+  width: 50%;
+  margin: 0px;
+  list-style-type:none
+}
+
+p.education{
+  margin-top: 0.2%;
+  margin-bottom: 1%;
+}
+
+p.rotc{
+  color: gold;
+  background-color: black;
+  margin: 1% 25%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+li{
+  margin-bottom: 0.5%;
+}
+
+div.index{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: x-large;
+}
+
+div.education{
+  text-align: center;
+  display: inline-block;
+  margin-top: -2%;
+  margin-bottom: -2%;
+}
+
+div.border{
+  text-align: center;
+  display: inline-block;
+  margin-top: -2%;
+  margin-bottom: -2%;
+}
