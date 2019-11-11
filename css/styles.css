@@ -9,6 +9,15 @@ nav{
   text-align: center;
 }
 
+.centerNavigation a{
+  color: hotpink;
+}
+
+.centerNavigation a:hover{
+  background-color: mintcream;
+  color: black;
+}
+
 .centerNavigation ul{
   display: inline-block;
   margin: 0;
@@ -184,4 +193,17 @@ div.border{
 
 #map{
   height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 800px){
+  .centerNavigation a{
+    float: none;
+    width: 100%;
+  }
 }
