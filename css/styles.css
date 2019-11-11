@@ -176,14 +176,7 @@ div.index{
   font-size: x-large;
 }
 
-div.education{
-  text-align: center;
-  display: inline-block;
-  margin-top: -2%;
-  margin-bottom: -2%;
-}
-
-div.border{
+div.fact_education{
   text-align: center;
   display: inline-block;
   margin-top: -2%;
