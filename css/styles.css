@@ -5,17 +5,8 @@ nav{
   font-size: medium;
 }
 
-.centerNavigation{
-  text-align: center;
-}
-
 .centerNavigation a{
   color: hotpink;
-}
-
-.centerNavigation a:hover{
-  background-color: mintcream;
-  color: black;
 }
 
 .centerNavigation ul{
@@ -24,13 +15,25 @@ nav{
   padding: 0;
   list-style-type: none
 }
+
 .centerNavigation li{
   float: left;
-  margin: 0px 120px 0px 120px;
+  margin: 0 120px;
 }
 
+.centerNavigation li a.active{
+  background-color: cornflowerblue;
+  color: lightcyan;
+}
+
+.centerNavigation li a:hover:not(.active){
+   background-color: mintcream;
+   color: black;
+ }
+
 body{
-  background-color: powderblue;
+  background-color: palevioletred;
+  color: bisque;
 }
 
 body.southkorea{
@@ -39,12 +42,13 @@ body.southkorea{
 }
 
 h1{
-  color: lightpink;
-  background-color: cadetblue;
+  color: beige;
+  background-color: cornflowerblue;
   font-family: "Cinzel Decorative", cursive;
   font-weight: bold;
   font-size: xx-large;
   text-align: center;
+  margin: 10px 0;
 }
 
 h2{
@@ -66,7 +70,7 @@ h2.resume{
 }
 
 h3{
-  color: darksalmon;
+  color: honeydew;
   font-family: "Courier New";
   font-weight: bold;
   font-size: larger;
@@ -123,10 +127,6 @@ section.activities{
   font-family: "Century Schoolbook";
 }
 
-.center_ul {
-  list-style-position: inside;
-}
-
 .leftAlign{
   float: left;
   text-align: left;
@@ -168,10 +168,6 @@ p.rotc{
   text-align: center;
 }
 
-li{
-  margin-bottom: 0.5%;
-}
-
 div.index{
   font-family: 'Nanum Pen Script', cursive;
   font-size: x-large;
@@ -201,9 +197,33 @@ html, body {
   padding: 0;
 }
 
-@media screen and (min-width: 800px){
-  .centerNavigation a{
-    float: none;
+@media screen and (max-width: 800px){
+  .centerNavigation ul{
     width: 100%;
+  }
+
+  .centerNavigation li{
+    float: none;
+    text-align: center;
+  }
+
+  body, p, li{
+    font-family: Cambria;
+  }
+}
+
+@media screen and (min-width: 800px){
+  body{
+    background-color: powderblue;
+    color: black;
+  }
+
+  h1{
+    color: lightpink;
+    background-color: cadetblue;
+  }
+
+  h3{
+    color: darksalmon;
   }
 }

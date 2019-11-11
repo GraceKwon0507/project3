@@ -12,11 +12,11 @@
 <body>
   <nav>
     <div class = "centerNavigation">
-      <ul class = "center_ul">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="southkorea.html">South Korea</a></li>
-        <li><a href="maps.html">Simple Maps</a></li>
+        <li><a class="active" href="maps.html">Simple Maps</a></li>
       </ul>
     </div>
   </nav>
@@ -178,7 +178,7 @@
                   mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'styled_map']
               }
           });
-          
+
           var marker = new google.maps.Marker({position: myLocation, map: map});
 
           var centerControlDiv = document.createElement('div');
