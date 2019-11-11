@@ -39,6 +39,11 @@ body{
   color: bisque;
 }
 
+body.index{
+  width: 80%;
+  height: 100%;
+}
+
 body.southkorea{
   width: 1240px;
   height: 1000px;
