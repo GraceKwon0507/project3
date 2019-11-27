@@ -1,5 +1,6 @@
+//Map
 var map;
-var myLocation = {lat: 41.834873, lng: -87.627007};
+var myLocation = {lat: 41.869700, lng: -87.651196};
 
 function CenterControl(controlDiv, map) {
 
@@ -161,3 +162,39 @@ function initMap() {
     map.mapTypes.set('styled_map', styledMapType);
     map.setMapTypeId('styled_map');
 }
+
+//Slider
+$(document).ready(function() {
+    $('#prev').on('click', function(){
+        $('#im_' + currentImage).stop().fadeOut(1);
+        decreaseImage();
+        $('#im_' + currentImage).stop().fadeIn(1);
+    });
+
+    $('#next').on('click', function(){
+        $('#im_' + currentImage).stop().fadeOut(1);
+        increaseImage();
+        $('#im_' + currentImage).stop().fadeIn(1);
+    });
+
+    var currentImage = 1;
+    var totalImages = 3;
+
+    function increaseImage() {
+        ++currentImage;
+        if(currentImage > totalImages) {
+            currentImage = 1;
+        }
+    }
+
+    function decreaseImage() {
+        --currentImage;
+        if(currentImage < 1) {
+            currentImage = totalImages;
+        }
+    }
+
+    window.setInterval(function() {
+        $('#prev').click();
+    }, 2500);
+});
